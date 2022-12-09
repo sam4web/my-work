@@ -1,0 +1,19 @@
+.dark-theme {
+  background-color: $pri_dark;
+
+  .header {
+    box-shadow: 1px 1px $grey_light;
+    background-color: $pri_dark;
+    color: $white;
+
+    .logo__text {
+      -webkit-text-stroke-color: $white;
+    }
+  }
+
+  .hero {
+    &__description {
+      color: $grey_light;
+    }
+  }
+}
