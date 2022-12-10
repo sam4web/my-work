@@ -13,13 +13,11 @@ const body = $(document.body);
 let darkToggleOn = JSON.parse(localStorage.getItem('isDarkTheme'));
 
 function changeOnDark() {
-  $('.logo__img').attr('src', './img/logo-light.png');
   $('.theme-icon').removeClass('fa-sun');
   $('.theme-icon').addClass('fa-moon');
 }
 
 function changeOnLight() {
-  $('.logo__img').attr('src', './img/logo-dark.png');
   $('.theme-icon').removeClass('fa-moon');
   $('.theme-icon').addClass('fa-sun');
 }

@@ -6,7 +6,7 @@
     max-width: 1000px;
     margin: 0 auto;
     @include flex;
-    padding: 5px 20px;
+    padding: 7px 20px;
 
     @include responsive_small {
       padding: 0;
@@ -31,12 +31,12 @@
 
     &__text {
       font-family: 'Delius Unicase', cursive;
-      font-weight: 700;
-      font-size: 26px;
+      font-weight: 900;
+      font-size: 27px;
       line-height: 43px;
       letter-spacing: 0.05em;
-      color: transparent;
-      -webkit-text-stroke-width: 1.5px;
+      color: $pri_color;
+      -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: $black;
 
       @include responsive_medium {
@@ -60,34 +60,6 @@
         & > i:hover {
           color: $pri_color;
           cursor: pointer;
-        }
-      }
-
-      .search-container {
-        @include responsive_small {
-          display: none;
-        }
-
-        @include flex;
-        gap: 10px;
-
-        .search-box {
-          display: none;
-          border: none;
-          outline: none;
-          padding: 2.5px 10px;
-          box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
-            rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
-          border-radius: 5px;
-
-          font-family: 'Dosis', sans-serif;
-          font-size: 20px;
-        }
-
-        &.search-box-show {
-          .search-box {
-            display: block;
-          }
         }
       }
     }

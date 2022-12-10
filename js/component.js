@@ -4,7 +4,7 @@ class Header extends HTMLElement {
     <header class="header">
       <div class="header-container">
         <a class="logo noselect" href="/">
-          <img class="logo__img" src="./img/logo-dark.png" alt="logo" />
+          <img class="logo__img" src="./img/icon.png" alt="logo" />
           <h2 class="logo__text">myWork</h2>
         </a>
 
@@ -12,10 +12,6 @@ class Header extends HTMLElement {
           <ul class="nav__list">
             <li class="nav__list-item theme-toggle">
               <i class="theme-icon fa-regular fa-sun"></i>
-            </li>
-            <li class="nav__list-item search-container">
-              <input type="text" class="search-box" />
-              <i class="search-toggle fa-solid fa-magnifying-glass"></i>
             </li>
           </ul>
         </nav>

@@ -1,14 +1,10 @@
 .dark-theme {
-  background-color: $pri_dark;
+  background-color: $sec_dark;
 
   .header {
-    box-shadow: 1px 1px $grey_light;
+    box-shadow: none;
     background-color: $pri_dark;
-    color: $white;
-
-    .logo__text {
-      -webkit-text-stroke-color: $white;
-    }
+    color: $grey_light;
   }
 
   .hero {
